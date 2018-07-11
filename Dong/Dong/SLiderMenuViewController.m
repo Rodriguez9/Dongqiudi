@@ -6,13 +6,17 @@
 //  Copyright © 2018年 姚智豪. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "SLiderMenuViewController.h"
 
-@interface FirstViewController ()
+@interface SLiderMenuViewController ()
+
+@property (weak, nonatomic) IBOutlet UIView *user;
+@property (weak, nonatomic) IBOutlet UIView *Home;
+
 
 @end
 
-@implementation FirstViewController
+@implementation SLiderMenuViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

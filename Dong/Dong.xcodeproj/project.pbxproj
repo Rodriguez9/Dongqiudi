@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03C0DD1220D0C38600790E06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0DD1120D0C38600790E06 /* AppDelegate.m */; };
-		03C0DD1520D0C38600790E06 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0DD1420D0C38600790E06 /* FirstViewController.m */; };
+		03C0DD1520D0C38600790E06 /* SLiderMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0DD1420D0C38600790E06 /* SLiderMenuViewController.m */; };
 		03C0DD1820D0C38600790E06 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0DD1720D0C38600790E06 /* SecondViewController.m */; };
 		03C0DD1B20D0C38600790E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C0DD1920D0C38600790E06 /* Main.storyboard */; };
 		03C0DD1D20D0C38700790E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C0DD1C20D0C38700790E06 /* Assets.xcassets */; };
@@ -41,8 +41,8 @@
 		03C0DD0D20D0C38600790E06 /* Dong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C0DD1020D0C38600790E06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03C0DD1120D0C38600790E06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03C0DD1320D0C38600790E06 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		03C0DD1420D0C38600790E06 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		03C0DD1320D0C38600790E06 /* SLiderMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLiderMenuViewController.h; sourceTree = "<group>"; };
+		03C0DD1420D0C38600790E06 /* SLiderMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLiderMenuViewController.m; sourceTree = "<group>"; };
 		03C0DD1620D0C38600790E06 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		03C0DD1720D0C38600790E06 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		03C0DD1A20D0C38600790E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 			children = (
 				03C0DD1020D0C38600790E06 /* AppDelegate.h */,
 				03C0DD1120D0C38600790E06 /* AppDelegate.m */,
-				03C0DD1320D0C38600790E06 /* FirstViewController.h */,
-				03C0DD1420D0C38600790E06 /* FirstViewController.m */,
+				03C0DD1320D0C38600790E06 /* SLiderMenuViewController.h */,
+				03C0DD1420D0C38600790E06 /* SLiderMenuViewController.m */,
 				03C0DD1620D0C38600790E06 /* SecondViewController.h */,
 				03C0DD1720D0C38600790E06 /* SecondViewController.m */,
 				03C0DD1920D0C38600790E06 /* Main.storyboard */,
@@ -281,7 +281,7 @@
 				03C0DD1820D0C38600790E06 /* SecondViewController.m in Sources */,
 				03C0DD1220D0C38600790E06 /* AppDelegate.m in Sources */,
 				03C0DD2320D0C38700790E06 /* main.m in Sources */,
-				03C0DD1520D0C38600790E06 /* FirstViewController.m in Sources */,
+				03C0DD1520D0C38600790E06 /* SLiderMenuViewController.m in Sources */,
 				03C0E16820D0EDB700790E06 /* UserPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
