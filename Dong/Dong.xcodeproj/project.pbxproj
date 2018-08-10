@@ -18,6 +18,8 @@
 		03C0DD3820D0C38700790E06 /* DongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0DD3720D0C38700790E06 /* DongUITests.m */; };
 		03C0E16520D0ECDE00790E06 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0E16420D0ECDE00790E06 /* HomePage.m */; };
 		03C0E16820D0EDB700790E06 /* UserPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0E16720D0EDB700790E06 /* UserPage.m */; };
+		03F6EA82211C6D760076B2A0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F6EA81211C6D760076B2A0 /* bg.png */; };
+		03F6EA85211C6E420076B2A0 /* UIViewController+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6EA84211C6E420076B2A0 /* UIViewController+Base.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		03C0E16420D0ECDE00790E06 /* HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
 		03C0E16620D0EDB700790E06 /* UserPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPage.h; sourceTree = "<group>"; };
 		03C0E16720D0EDB700790E06 /* UserPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPage.m; sourceTree = "<group>"; };
+		03F6EA81211C6D760076B2A0 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		03F6EA83211C6E420076B2A0 /* UIViewController+Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Base.h"; sourceTree = "<group>"; };
+		03F6EA84211C6E420076B2A0 /* UIViewController+Base.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Base.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,21 +115,18 @@
 		03C0DD0F20D0C38600790E06 /* Dong */ = {
 			isa = PBXGroup;
 			children = (
-				03C0DD1020D0C38600790E06 /* AppDelegate.h */,
-				03C0DD1120D0C38600790E06 /* AppDelegate.m */,
-				03C0DD1320D0C38600790E06 /* SLiderMenuViewController.h */,
-				03C0DD1420D0C38600790E06 /* SLiderMenuViewController.m */,
+				03F6EA74211C68E10076B2A0 /* AppDelegate */,
+				03F6EA75211C68F10076B2A0 /* Model */,
+				03F6EA76211C68FF0076B2A0 /* Macro */,
+				03F6EA77211C69550076B2A0 /* General */,
+				03F6EA7B211C69910076B2A0 /* Helpers */,
+				03F6EA7C211C69BE0076B2A0 /* Vendors */,
+				03F6EA7D211C69F40076B2A0 /* Sections */,
+				03F6EA7E211C6A090076B2A0 /* Resources */,
 				03C0DD1620D0C38600790E06 /* SecondViewController.h */,
 				03C0DD1720D0C38600790E06 /* SecondViewController.m */,
-				03C0DD1920D0C38600790E06 /* Main.storyboard */,
-				03C0DD1C20D0C38700790E06 /* Assets.xcassets */,
-				03C0DD1E20D0C38700790E06 /* LaunchScreen.storyboard */,
 				03C0DD2120D0C38700790E06 /* Info.plist */,
 				03C0DD2220D0C38700790E06 /* main.m */,
-				03C0E16320D0ECDE00790E06 /* HomePage.h */,
-				03C0E16420D0ECDE00790E06 /* HomePage.m */,
-				03C0E16620D0EDB700790E06 /* UserPage.h */,
-				03C0E16720D0EDB700790E06 /* UserPage.m */,
 			);
 			path = Dong;
 			sourceTree = "<group>";
@@ -145,6 +147,116 @@
 				03C0DD3920D0C38800790E06 /* Info.plist */,
 			);
 			path = DongUITests;
+			sourceTree = "<group>";
+		};
+		03F6EA74211C68E10076B2A0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				03C0DD1020D0C38600790E06 /* AppDelegate.h */,
+				03C0DD1120D0C38600790E06 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		03F6EA75211C68F10076B2A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03F6EA76211C68FF0076B2A0 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		03F6EA77211C69550076B2A0 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				03F6EA78211C69650076B2A0 /* Views */,
+				03F6EA79211C69710076B2A0 /* Classes */,
+				03F6EA7A211C69790076B2A0 /* Categories */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		03F6EA78211C69650076B2A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		03F6EA79211C69710076B2A0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		03F6EA7A211C69790076B2A0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				03F6EA83211C6E420076B2A0 /* UIViewController+Base.h */,
+				03F6EA84211C6E420076B2A0 /* UIViewController+Base.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		03F6EA7B211C69910076B2A0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		03F6EA7C211C69BE0076B2A0 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		03F6EA7D211C69F40076B2A0 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				03C0DD1320D0C38600790E06 /* SLiderMenuViewController.h */,
+				03C0DD1420D0C38600790E06 /* SLiderMenuViewController.m */,
+				03F6EA7F211C6A9A0076B2A0 /* Home */,
+				03F6EA80211C6AC90076B2A0 /* User */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		03F6EA7E211C6A090076B2A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03C0DD1920D0C38600790E06 /* Main.storyboard */,
+				03C0DD1C20D0C38700790E06 /* Assets.xcassets */,
+				03C0DD1E20D0C38700790E06 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		03F6EA7F211C6A9A0076B2A0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				03C0E16320D0ECDE00790E06 /* HomePage.h */,
+				03F6EA81211C6D760076B2A0 /* bg.png */,
+				03C0E16420D0ECDE00790E06 /* HomePage.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		03F6EA80211C6AC90076B2A0 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				03C0E16620D0EDB700790E06 /* UserPage.h */,
+				03C0E16720D0EDB700790E06 /* UserPage.m */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C0DD2020D0C38700790E06 /* LaunchScreen.storyboard in Resources */,
+				03F6EA82211C6D760076B2A0 /* bg.png in Resources */,
 				03C0DD1D20D0C38700790E06 /* Assets.xcassets in Resources */,
 				03C0DD1B20D0C38600790E06 /* Main.storyboard in Resources */,
 			);
@@ -282,6 +395,7 @@
 				03C0DD1220D0C38600790E06 /* AppDelegate.m in Sources */,
 				03C0DD2320D0C38700790E06 /* main.m in Sources */,
 				03C0DD1520D0C38600790E06 /* SLiderMenuViewController.m in Sources */,
+				03F6EA85211C6E420076B2A0 /* UIViewController+Base.m in Sources */,
 				03C0E16820D0EDB700790E06 /* UserPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
