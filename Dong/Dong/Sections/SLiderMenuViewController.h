@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface SLiderMenuViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *pan;
+-(void)switchController;
 
 @end
 

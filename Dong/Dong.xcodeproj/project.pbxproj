@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,8 +18,11 @@
 		03C0DD3820D0C38700790E06 /* DongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0DD3720D0C38700790E06 /* DongUITests.m */; };
 		03C0E16520D0ECDE00790E06 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0E16420D0ECDE00790E06 /* HomePage.m */; };
 		03C0E16820D0EDB700790E06 /* UserPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0E16720D0EDB700790E06 /* UserPage.m */; };
-		03F6EA82211C6D760076B2A0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F6EA81211C6D760076B2A0 /* bg.png */; };
 		03F6EA85211C6E420076B2A0 /* UIViewController+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6EA84211C6E420076B2A0 /* UIViewController+Base.m */; };
+		270736C72132F7C800DB2C81 /* UIView+Corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 270736C62132F7C800DB2C81 /* UIView+Corner.m */; };
+		370FA25E86F1C97975F45DC1 /* libPods-DongUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CAE0917F2CA79FCC617AB9 /* libPods-DongUITests.a */; };
+		5F1FD908D08811A474356FFF /* libPods-Dong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F63DCD88BEF04B9662ECFDAF /* libPods-Dong.a */; };
+		9E8502A74BA0B5A9FDDB62AB /* libPods-DongTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0D349BA3BA369302CA0714 /* libPods-DongTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +65,21 @@
 		03C0E16420D0ECDE00790E06 /* HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
 		03C0E16620D0EDB700790E06 /* UserPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPage.h; sourceTree = "<group>"; };
 		03C0E16720D0EDB700790E06 /* UserPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPage.m; sourceTree = "<group>"; };
-		03F6EA81211C6D760076B2A0 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		03F6EA83211C6E420076B2A0 /* UIViewController+Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Base.h"; sourceTree = "<group>"; };
 		03F6EA84211C6E420076B2A0 /* UIViewController+Base.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Base.m"; sourceTree = "<group>"; };
+		05CAE0917F2CA79FCC617AB9 /* libPods-DongUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DongUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F6C2EF3F037D7E52035B5A /* Pods-Dong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dong/Pods-Dong.debug.xcconfig"; sourceTree = "<group>"; };
+		270736C52132F7C800DB2C81 /* UIView+Corner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Corner.h"; sourceTree = "<group>"; };
+		270736C62132F7C800DB2C81 /* UIView+Corner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Corner.m"; sourceTree = "<group>"; };
+		275F97BD213ED2F0003DDD1F /* URLMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLMacro.h; sourceTree = "<group>"; };
+		275F97BE213ED30E003DDD1F /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		29C8F6F3772437A647951048 /* Pods-DongUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DongUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DongUITests/Pods-DongUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A0D349BA3BA369302CA0714 /* libPods-DongTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DongTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9499634CFF63C16727C704A6 /* Pods-DongTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DongTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DongTests/Pods-DongTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6F1D648625C23FAB33F4935 /* Pods-DongTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DongTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DongTests/Pods-DongTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFFB4AC460030235094926B4 /* Pods-DongUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DongUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DongUITests/Pods-DongUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3F829123701F743D7AFF8A4 /* Pods-Dong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dong.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dong/Pods-Dong.release.xcconfig"; sourceTree = "<group>"; };
+		F63DCD88BEF04B9662ECFDAF /* libPods-Dong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1FD908D08811A474356FFF /* libPods-Dong.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8502A74BA0B5A9FDDB62AB /* libPods-DongTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370FA25E86F1C97975F45DC1 /* libPods-DongUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +117,8 @@
 				03C0DD2B20D0C38700790E06 /* DongTests */,
 				03C0DD3620D0C38700790E06 /* DongUITests */,
 				03C0DD0E20D0C38600790E06 /* Products */,
+				FD38CC071C703D35EE5A7183 /* Pods */,
+				9A63EB5AF03B377DB3D0E395 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,7 +137,7 @@
 			children = (
 				03F6EA74211C68E10076B2A0 /* AppDelegate */,
 				03F6EA75211C68F10076B2A0 /* Model */,
-				03F6EA76211C68FF0076B2A0 /* Macro */,
+				275F97BA213ED2C7003DDD1F /* Macro */,
 				03F6EA77211C69550076B2A0 /* General */,
 				03F6EA7B211C69910076B2A0 /* Helpers */,
 				03F6EA7C211C69BE0076B2A0 /* Vendors */,
@@ -165,13 +185,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		03F6EA76211C68FF0076B2A0 /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Macro;
-			sourceTree = "<group>";
-		};
 		03F6EA77211C69550076B2A0 /* General */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +214,8 @@
 			children = (
 				03F6EA83211C6E420076B2A0 /* UIViewController+Base.h */,
 				03F6EA84211C6E420076B2A0 /* UIViewController+Base.m */,
+				270736C52132F7C800DB2C81 /* UIView+Corner.h */,
+				270736C62132F7C800DB2C81 /* UIView+Corner.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -244,7 +259,6 @@
 			isa = PBXGroup;
 			children = (
 				03C0E16320D0ECDE00790E06 /* HomePage.h */,
-				03F6EA81211C6D760076B2A0 /* bg.png */,
 				03C0E16420D0ECDE00790E06 /* HomePage.m */,
 			);
 			path = Home;
@@ -259,6 +273,38 @@
 			path = User;
 			sourceTree = "<group>";
 		};
+		275F97BA213ED2C7003DDD1F /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				275F97BE213ED30E003DDD1F /* UtilsMacro.h */,
+				275F97BD213ED2F0003DDD1F /* URLMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		9A63EB5AF03B377DB3D0E395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F63DCD88BEF04B9662ECFDAF /* libPods-Dong.a */,
+				2A0D349BA3BA369302CA0714 /* libPods-DongTests.a */,
+				05CAE0917F2CA79FCC617AB9 /* libPods-DongUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD38CC071C703D35EE5A7183 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05F6C2EF3F037D7E52035B5A /* Pods-Dong.debug.xcconfig */,
+				E3F829123701F743D7AFF8A4 /* Pods-Dong.release.xcconfig */,
+				9499634CFF63C16727C704A6 /* Pods-DongTests.debug.xcconfig */,
+				A6F1D648625C23FAB33F4935 /* Pods-DongTests.release.xcconfig */,
+				CFFB4AC460030235094926B4 /* Pods-DongUITests.debug.xcconfig */,
+				29C8F6F3772437A647951048 /* Pods-DongUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -266,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03C0DD3C20D0C38800790E06 /* Build configuration list for PBXNativeTarget "Dong" */;
 			buildPhases = (
+				F0D208158399BB161369BDA7 /* [CP] Check Pods Manifest.lock */,
 				03C0DD0920D0C38600790E06 /* Sources */,
 				03C0DD0A20D0C38600790E06 /* Frameworks */,
 				03C0DD0B20D0C38600790E06 /* Resources */,
+				97C28FF14432B100D5905A15 /* [CP] Embed Pods Frameworks */,
+				5925F7DA3A5273BF2C558344 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03C0DD3F20D0C38800790E06 /* Build configuration list for PBXNativeTarget "DongTests" */;
 			buildPhases = (
+				CA99217664F987CCCA6F353F /* [CP] Check Pods Manifest.lock */,
 				03C0DD2420D0C38700790E06 /* Sources */,
 				03C0DD2520D0C38700790E06 /* Frameworks */,
 				03C0DD2620D0C38700790E06 /* Resources */,
+				BA6D2FB4A0EE1781A4900AAC /* [CP] Embed Pods Frameworks */,
+				EE129B238E6DF3E0406D0564 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,9 +353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03C0DD4220D0C38800790E06 /* Build configuration list for PBXNativeTarget "DongUITests" */;
 			buildPhases = (
+				9B108E4A9B1B3ED72C05721E /* [CP] Check Pods Manifest.lock */,
 				03C0DD2F20D0C38700790E06 /* Sources */,
 				03C0DD3020D0C38700790E06 /* Frameworks */,
 				03C0DD3120D0C38700790E06 /* Resources */,
+				066DFF5B99277C5F99CDEF7C /* [CP] Embed Pods Frameworks */,
+				0676A68BC3F736F93EEA9F79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,19 +381,22 @@
 				TargetAttributes = {
 					03C0DD0C20D0C38600790E06 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Manual;
 					};
 					03C0DD2720D0C38700790E06 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 03C0DD0C20D0C38600790E06;
 					};
 					03C0DD3220D0C38700790E06 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 03C0DD0C20D0C38600790E06;
 					};
 				};
 			};
 			buildConfigurationList = 03C0DD0820D0C38600790E06 /* Build configuration list for PBXProject "Dong" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -363,7 +421,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C0DD2020D0C38700790E06 /* LaunchScreen.storyboard in Resources */,
-				03F6EA82211C6D760076B2A0 /* bg.png in Resources */,
 				03C0DD1D20D0C38700790E06 /* Assets.xcassets in Resources */,
 				03C0DD1B20D0C38600790E06 /* Main.storyboard in Resources */,
 			);
@@ -385,6 +442,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		066DFF5B99277C5F99CDEF7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DongUITests/Pods-DongUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0676A68BC3F736F93EEA9F79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DongUITests/Pods-DongUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5925F7DA3A5273BF2C558344 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dong/Pods-Dong-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dong/Pods-Dong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C28FF14432B100D5905A15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dong/Pods-Dong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B108E4A9B1B3ED72C05721E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DongUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA6D2FB4A0EE1781A4900AAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DongTests/Pods-DongTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA99217664F987CCCA6F353F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DongTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE129B238E6DF3E0406D0564 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DongTests/Pods-DongTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D208158399BB161369BDA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dong-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03C0DD0920D0C38600790E06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -397,6 +604,7 @@
 				03C0DD1520D0C38600790E06 /* SLiderMenuViewController.m in Sources */,
 				03F6EA85211C6E420076B2A0 /* UIViewController+Base.m in Sources */,
 				03C0E16820D0EDB700790E06 /* UserPage.m in Sources */,
+				270736C72132F7C800DB2C81 /* UIView+Corner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,47 +771,48 @@
 		};
 		03C0DD3D20D0C38800790E06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F6C2EF3F037D7E52035B5A /* Pods-Dong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Dong/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.Dong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		03C0DD3E20D0C38800790E06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F829123701F743D7AFF8A4 /* Pods-Dong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Dong/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.Dong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		03C0DD4020D0C38800790E06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9499634CFF63C16727C704A6 /* Pods-DongTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DongTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.DongTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -613,15 +822,12 @@
 		};
 		03C0DD4120D0C38800790E06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F1D648625C23FAB33F4935 /* Pods-DongTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DongTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.DongTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -631,14 +837,11 @@
 		};
 		03C0DD4320D0C38800790E06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFB4AC460030235094926B4 /* Pods-DongUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DongUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.DongUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -648,14 +851,11 @@
 		};
 		03C0DD4420D0C38800790E06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29C8F6F3772437A647951048 /* Pods-DongUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DongUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.DongUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
