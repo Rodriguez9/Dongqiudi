@@ -114,6 +114,8 @@
     [UIView animateWithDuration:kAnimationDuration animations:^{
         self.user.alpha=1;
         self.Home.transform=transform;
+    } completion:^(BOOL finished){
+        [self setMaskButtonVisible:YES];
     }];
 }
 
@@ -122,6 +124,8 @@
     [UIView animateWithDuration:kAnimationDuration animations:^{
         self.user.alpha=0;
         self.Home.transform=CGAffineTransformIdentity;
+    }completion:^(BOOL finished){
+        [self setMaskButtonVisible:NO];
     }];
 }
 
@@ -139,7 +143,23 @@
     }
 }
 
-//
+//点击home界面弹回
+-(void)setMaskButtonVisible:(BOOL)visible{
+    if (_maskButton==nil) {
+        self.maskButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_maskButton addTarget:self action:@selector(maskButtonPressed) forControlEvents:UIControlEventTouchUpInside];
+        [_Home addSubview:_maskButton];
+        [_maskButton mas_makeConstraints:^(MASConstraintMaker *make){
+            make.edges.equalTo(self.Home).insets(UIEdgeInsetsZero);
+        }];
+    }
+    _maskButton.hidden = !visible;
+}
+
+-(void)maskButtonPressed{
+    _folder=!_folder;
+    [self showHomeViewController];
+}
 
 
 @end

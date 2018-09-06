@@ -198,13 +198,24 @@
                     <view key="view" contentMode="scaleToFill" id="C38-xH-ReZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="598"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Al-UG-emU">
+                                <rect key="frame" x="32" y="133" width="97" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0043958895839750767" green="0.99029809236526489" blue="0.95740729570388794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="testButtonPressed:" destination="nEx-78-mtQ" eventType="touchUpInside" id="BXp-JE-u9K"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="3zj-IE-1Vw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cfe-74-QcD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3006" y="-28"/>
+            <point key="canvasLocation" x="3005.5999999999999" y="-28.785607196401802"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Mg1-zg-BAm">
