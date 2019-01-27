@@ -1,0 +1,6 @@
+framework module Pods_Dongqiu {
+  umbrella header "Pods-Dongqiu-umbrella.h"
+
+  export *
+  module * { export * }
+}
