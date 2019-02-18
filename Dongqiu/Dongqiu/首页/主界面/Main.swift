@@ -8,13 +8,17 @@
 
 import UIKit
 import Masonry
+
 class Main: UIViewController {
+    
     static let iamgeNames = ["App公测","简书出版","简书官方专题","简书月刊","简书出版","简书官方专题"]
     static let imageNames = ["h1.jpg","h2.jpg","h3.jpg"]
     static let cellID : String = "cellID"
+    
     var tab : UITableView?
     var _scroll : scView?
     var _imgscroll : scView?
+    
     lazy var table : UITableView = {
         let table = UITableView()
         table.backgroundColor = UIColor.red
@@ -39,13 +43,13 @@ class Main: UIViewController {
         _imgscroll = imgscroll
         
         scroll.creatMyScrollView(type: .ShowTitleType, data: Main.iamgeNames, height: 60)
-        scroll.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 60)
-        view.addSubview(scroll)
-        
         imgscroll.creatMyScrollView(type: .ShowImageType, data: Main.imageNames, height: 240)
-        imgscroll.frame =   CGRect(x: 0, y: 60, width: UIScreen.main.bounds.size.width, height: 240)
-        view.addSubview(imgscroll)
+
+        imgscroll.frame =   CGRect(x: 0, y: 60, width: WIDTH, height: 240)
         
+        view.addSubview(_scroll!)
+        view.addSubview(_imgscroll!)
+
         tab?.tableHeaderView = _imgscroll
 
         SetUI()
@@ -53,11 +57,19 @@ class Main: UIViewController {
     }
     
     func SetUI(){
+        _scroll?.mas_makeConstraints({ (make:MASConstraintMaker?) in
+            make?.top.mas_equalTo()(self.view)?.offset()(60)
+            make?.size.mas_equalTo()(CGSize(width: view.bounds.size.width, height: 60))
+            make?.left.mas_equalTo()(self.view)
+        })
+        
         tab?.mas_makeConstraints({ (make:MASConstraintMaker?) in
-            make?.top.equalTo()(_imgscroll?.mas_bottom)?.offset()(0)
+            make?.top.equalTo()(_scroll?.mas_bottom)?.offset()(0)
             make?.size.mas_equalTo()(CGSize(width: view.bounds.size.width, height: view.bounds.size.height))
             make?.left.mas_equalTo()(self.view)
         })
+        
+        
     }
     
     func createTimer(){
@@ -66,8 +78,8 @@ class Main: UIViewController {
     }
     
     @objc func timerManager(){
-        _imgscroll?.setContentOffset(CGPoint(x: (_imgscroll?.contentOffset.x)! + UIScreen.main.bounds.size.width, y: 0), animated: true)
-        if _imgscroll?.contentOffset.x == CGFloat(UIScreen.main.bounds.size.width) * CGFloat(Main.imageNames.count-1){
+        _imgscroll?.setContentOffset(CGPoint(x: (_imgscroll?.contentOffset.x)! + WIDTH, y: 0), animated: true)
+        if _imgscroll?.contentOffset.x == CGFloat(WIDTH) * CGFloat(Main.imageNames.count-1){
             _imgscroll?.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
         }
     }

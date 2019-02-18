@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031A677622003857000C170B /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A677522003857000C170B /* ContentViewController.swift */; };
+		031A677B22004085000C170B /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A677A22004085000C170B /* ContentTableViewCell.swift */; };
+		031A677D22004961000C170B /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A677C22004961000C170B /* ContentCollectionViewCell.swift */; };
+		031A678022005EEF000C170B /* SLiderMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A677F22005EEF000C170B /* SLiderMenuViewController.swift */; };
+		0333FDEE2216C4B10072526B /* Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FDED2216C4B10072526B /* Default.swift */; };
+		03385214221A490D00214AB2 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03385213221A490C00214AB2 /* Center.swift */; };
+		0338521A221A501F00214AB2 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03385219221A501F00214AB2 /* MyTabBar.swift */; };
 		2717BB1921FE1B38008EE07B /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717BB1821FE1B38008EE07B /* Main.swift */; };
 		2717BB1B21FE1C81008EE07B /* scView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717BB1A21FE1C81008EE07B /* scView.swift */; };
 		2717BB1D21FE1C8A008EE07B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717BB1C21FE1C8A008EE07B /* TableViewCell.swift */; };
 		2742890F21F22C6A002F9BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742890E21F22C6A002F9BDD /* AppDelegate.swift */; };
-		2742891121F22C6A002F9BDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742891021F22C6A002F9BDD /* ViewController.swift */; };
-		2742891421F22C6A002F9BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2742891221F22C6A002F9BDD /* Main.storyboard */; };
 		2742891621F22C6A002F9BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2742891521F22C6A002F9BDD /* Assets.xcassets */; };
 		2742891921F22C6A002F9BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2742891721F22C6A002F9BDD /* LaunchScreen.storyboard */; };
 		2742892121F22D68002F9BDD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742892021F22D68002F9BDD /* TabBarViewController.swift */; };
@@ -20,19 +25,23 @@
 		2742892A21F231E4002F9BDD /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742892921F231E4002F9BDD /* Match.swift */; };
 		2742892D21F231FF002F9BDD /* Quanzi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742892C21F231FF002F9BDD /* Quanzi.swift */; };
 		2742893021F2321D002F9BDD /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742892F21F2321D002F9BDD /* DataViewController.swift */; };
-		2742893321F23813002F9BDD /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742893221F23813002F9BDD /* Center.swift */; };
 		2742893521F239E3002F9BDD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742893421F239E3002F9BDD /* BaseViewController.swift */; };
 		27EF2B36F86CCCF273C32E92 /* Pods_Dongqiu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17687DE4A0AD366CCBE65FA /* Pods_Dongqiu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		031A677522003857000C170B /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		031A677A22004085000C170B /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		031A677C22004961000C170B /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		031A677F22005EEF000C170B /* SLiderMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLiderMenuViewController.swift; sourceTree = "<group>"; };
+		0333FDED2216C4B10072526B /* Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Default.swift; sourceTree = "<group>"; };
+		03385213221A490C00214AB2 /* Center.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
+		03385219221A501F00214AB2 /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
 		2717BB1821FE1B38008EE07B /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		2717BB1A21FE1C81008EE07B /* scView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scView.swift; sourceTree = "<group>"; };
 		2717BB1C21FE1C8A008EE07B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		2742890B21F22C6A002F9BDD /* Dongqiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dongqiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2742890E21F22C6A002F9BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2742891021F22C6A002F9BDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2742891321F22C6A002F9BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2742891521F22C6A002F9BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2742891821F22C6A002F9BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2742891A21F22C6A002F9BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,7 +50,6 @@
 		2742892921F231E4002F9BDD /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		2742892C21F231FF002F9BDD /* Quanzi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quanzi.swift; sourceTree = "<group>"; };
 		2742892F21F2321D002F9BDD /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		2742893221F23813002F9BDD /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
 		2742893421F239E3002F9BDD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4CBFC3099EB58A2713C89581 /* Pods-Dongqiu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dongqiu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dongqiu/Pods-Dongqiu.debug.xcconfig"; sourceTree = "<group>"; };
 		A1FB0F31F5E58A4ED87884AA /* Pods-Dongqiu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dongqiu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dongqiu/Pods-Dongqiu.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,6 +68,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031A677422003810000C170B /* 主界面 */ = {
+			isa = PBXGroup;
+			children = (
+				2717BB1A21FE1C81008EE07B /* scView.swift */,
+				2717BB1C21FE1C8A008EE07B /* TableViewCell.swift */,
+				2717BB1821FE1B38008EE07B /* Main.swift */,
+			);
+			path = "主界面";
+			sourceTree = "<group>";
+		};
+		031A677722003860000C170B /* 副界面 */ = {
+			isa = PBXGroup;
+			children = (
+				031A677522003857000C170B /* ContentViewController.swift */,
+				031A677A22004085000C170B /* ContentTableViewCell.swift */,
+				031A677C22004961000C170B /* ContentCollectionViewCell.swift */,
+			);
+			path = "副界面";
+			sourceTree = "<group>";
+		};
+		031A677E22005EBD000C170B /* 中间界面 */ = {
+			isa = PBXGroup;
+			children = (
+				031A677F22005EEF000C170B /* SLiderMenuViewController.swift */,
+			);
+			path = "中间界面";
+			sourceTree = "<group>";
+		};
+		03385215221A4E7B00214AB2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2742890E21F22C6A002F9BDD /* AppDelegate.swift */,
+				0333FDED2216C4B10072526B /* Default.swift */,
+				2742891A21F22C6A002F9BDD /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		03385216221A4EA500214AB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03385217221A4EB000214AB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03385219221A501F00214AB2 /* MyTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03385218221A4EB500214AB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2742892021F22D68002F9BDD /* TabBarViewController.swift */,
+				2742892321F23053002F9BDD /* NavViewController.swift */,
+				2742893421F239E3002F9BDD /* BaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2742890221F22C69002F9BDD = {
 			isa = PBXGroup;
 			children = (
@@ -81,18 +152,15 @@
 		2742890D21F22C6A002F9BDD /* Dongqiu */ = {
 			isa = PBXGroup;
 			children = (
+				03385215221A4E7B00214AB2 /* Other */,
 				2742893121F237F8002F9BDD /* Center */,
 				2742892E21F2320C002F9BDD /* 数据 */,
 				2742892B21F231EE002F9BDD /* 圈子 */,
 				2742892821F231CE002F9BDD /* 比赛 */,
 				2742892521F23182002F9BDD /* 首页 */,
 				2742892221F23034002F9BDD /* Core */,
-				2742890E21F22C6A002F9BDD /* AppDelegate.swift */,
-				2742891021F22C6A002F9BDD /* ViewController.swift */,
-				2742891221F22C6A002F9BDD /* Main.storyboard */,
 				2742891521F22C6A002F9BDD /* Assets.xcassets */,
 				2742891721F22C6A002F9BDD /* LaunchScreen.storyboard */,
-				2742891A21F22C6A002F9BDD /* Info.plist */,
 			);
 			path = Dongqiu;
 			sourceTree = "<group>";
@@ -100,9 +168,9 @@
 		2742892221F23034002F9BDD /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				2742892021F22D68002F9BDD /* TabBarViewController.swift */,
-				2742892321F23053002F9BDD /* NavViewController.swift */,
-				2742893421F239E3002F9BDD /* BaseViewController.swift */,
+				03385218221A4EB500214AB2 /* Controller */,
+				03385217221A4EB000214AB2 /* View */,
+				03385216221A4EA500214AB2 /* Model */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -110,9 +178,9 @@
 		2742892521F23182002F9BDD /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				2717BB1A21FE1C81008EE07B /* scView.swift */,
-				2717BB1C21FE1C8A008EE07B /* TableViewCell.swift */,
-				2717BB1821FE1B38008EE07B /* Main.swift */,
+				031A677E22005EBD000C170B /* 中间界面 */,
+				031A677422003810000C170B /* 主界面 */,
+				031A677722003860000C170B /* 副界面 */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -144,7 +212,7 @@
 		2742893121F237F8002F9BDD /* Center */ = {
 			isa = PBXGroup;
 			children = (
-				2742893221F23813002F9BDD /* Center.swift */,
+				03385213221A490C00214AB2 /* Center.swift */,
 			);
 			path = Center;
 			sourceTree = "<group>";
@@ -230,7 +298,6 @@
 			files = (
 				2742891921F22C6A002F9BDD /* LaunchScreen.storyboard in Resources */,
 				2742891621F22C6A002F9BDD /* Assets.xcassets in Resources */,
-				2742891421F22C6A002F9BDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,32 +362,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031A678022005EEF000C170B /* SLiderMenuViewController.swift in Sources */,
 				2717BB1921FE1B38008EE07B /* Main.swift in Sources */,
-				2742891121F22C6A002F9BDD /* ViewController.swift in Sources */,
 				2742892121F22D68002F9BDD /* TabBarViewController.swift in Sources */,
+				03385214221A490D00214AB2 /* Center.swift in Sources */,
+				031A677622003857000C170B /* ContentViewController.swift in Sources */,
 				2742892421F23053002F9BDD /* NavViewController.swift in Sources */,
 				2742893021F2321D002F9BDD /* DataViewController.swift in Sources */,
 				2742893521F239E3002F9BDD /* BaseViewController.swift in Sources */,
 				2742890F21F22C6A002F9BDD /* AppDelegate.swift in Sources */,
 				2742892A21F231E4002F9BDD /* Match.swift in Sources */,
-				2742893321F23813002F9BDD /* Center.swift in Sources */,
+				0333FDEE2216C4B10072526B /* Default.swift in Sources */,
+				0338521A221A501F00214AB2 /* MyTabBar.swift in Sources */,
 				2717BB1D21FE1C8A008EE07B /* TableViewCell.swift in Sources */,
+				031A677B22004085000C170B /* ContentTableViewCell.swift in Sources */,
 				2742892D21F231FF002F9BDD /* Quanzi.swift in Sources */,
 				2717BB1B21FE1C81008EE07B /* scView.swift in Sources */,
+				031A677D22004961000C170B /* ContentCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2742891221F22C6A002F9BDD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2742891321F22C6A002F9BDD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2742891721F22C6A002F9BDD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +510,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Dongqiu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Dongqiu/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Dongqiu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,7 +527,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Dongqiu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Dongqiu/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Dongqiu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
