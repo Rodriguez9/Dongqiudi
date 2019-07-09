@@ -35,12 +35,12 @@ class SLiderMenuViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.clear
         initParams()
-        mainContainer = addChildViewController(viewController: "Main", isNavViewController: true)
-        contantContainer = addChildViewController(viewController: "ContentViewController", isNavViewController: false)
-        contantContainer?.frame = CGRect(x: -self.view.bounds.size.width*4/5, y: 0, width: self.view.bounds.size.width*4/5, height: self.view.bounds.size.height)
-        let pan = UIPanGestureRecognizer()
-        pan.addTarget(self, action: #selector(panned(sender:)))
-        self.view.addGestureRecognizer(pan)
+        mainContainer = addChildViewController(viewController: "ContentViewController", isNavViewController: true)
+//        contantContainer = addChildViewController(viewController: "ContentViewController", isNavViewController: false)
+//        contantContainer?.frame = CGRect(x: -self.view.bounds.size.width*4/5, y: 0, width: self.view.bounds.size.width*4/5, height: self.view.bounds.size.height)
+//        let pan = UIPanGestureRecognizer()
+//        pan.addTarget(self, action: #selector(panned(sender:)))
+//        self.view.addGestureRecognizer(pan)
     }
     
     func addChildViewController(viewController: String,isNavViewController:Bool) -> UIView{

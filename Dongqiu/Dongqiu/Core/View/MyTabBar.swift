@@ -29,11 +29,13 @@ class MyTabBar: UITabBar {
     
     override func layoutSubviews() {
         super.layoutSubviews()
+        
+        //当前tabbar的高度和宽度
         let width = frame.width
         let height = frame.height
         
         publishButton.center = CGPoint(x: width * 0.5, y: height * 0.5-7)
-        
+         //设置其他按钮的frame
         let buttonW : CGFloat = width * 0.2
         let buttonH : CGFloat = height
         let buttonY : CGFloat = 0

@@ -26,6 +26,8 @@
 		2742892D21F231FF002F9BDD /* Quanzi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742892C21F231FF002F9BDD /* Quanzi.swift */; };
 		2742893021F2321D002F9BDD /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742892F21F2321D002F9BDD /* DataViewController.swift */; };
 		2742893521F239E3002F9BDD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742893421F239E3002F9BDD /* BaseViewController.swift */; };
+		27AB0AA922CA7F3F004F216B /* default_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27AB0AA822CA7F3F004F216B /* default_theme.plist */; };
+		27AB0AAB22CA7F51004F216B /* night_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27AB0AAA22CA7F51004F216B /* night_theme.plist */; };
 		27EF2B36F86CCCF273C32E92 /* Pods_Dongqiu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17687DE4A0AD366CCBE65FA /* Pods_Dongqiu.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		2742892C21F231FF002F9BDD /* Quanzi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quanzi.swift; sourceTree = "<group>"; };
 		2742892F21F2321D002F9BDD /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		2742893421F239E3002F9BDD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		27AB0AA822CA7F3F004F216B /* default_theme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = default_theme.plist; sourceTree = "<group>"; };
+		27AB0AAA22CA7F51004F216B /* night_theme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = night_theme.plist; sourceTree = "<group>"; };
 		4CBFC3099EB58A2713C89581 /* Pods-Dongqiu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dongqiu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dongqiu/Pods-Dongqiu.debug.xcconfig"; sourceTree = "<group>"; };
 		A1FB0F31F5E58A4ED87884AA /* Pods-Dongqiu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dongqiu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dongqiu/Pods-Dongqiu.release.xcconfig"; sourceTree = "<group>"; };
 		D17687DE4A0AD366CCBE65FA /* Pods_Dongqiu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dongqiu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,9 +85,10 @@
 		031A677722003860000C170B /* 副界面 */ = {
 			isa = PBXGroup;
 			children = (
+				27B02EF922CBC67500B7CC17 /* Controller */,
+				27B02EF822CBC66E00B7CC17 /* View */,
+				27B02EF722CBC66800B7CC17 /* Model */,
 				031A677522003857000C170B /* ContentViewController.swift */,
-				031A677A22004085000C170B /* ContentTableViewCell.swift */,
-				031A677C22004961000C170B /* ContentCollectionViewCell.swift */,
 			);
 			path = "副界面";
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 		03385215221A4E7B00214AB2 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				27AB0AAC22CA7F56004F216B /* Theme */,
 				2742890E21F22C6A002F9BDD /* AppDelegate.swift */,
 				0333FDED2216C4B10072526B /* Default.swift */,
 				2742891A21F22C6A002F9BDD /* Info.plist */,
@@ -217,6 +223,38 @@
 			path = Center;
 			sourceTree = "<group>";
 		};
+		27AB0AAC22CA7F56004F216B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				27AB0AA822CA7F3F004F216B /* default_theme.plist */,
+				27AB0AAA22CA7F51004F216B /* night_theme.plist */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		27B02EF722CBC66800B7CC17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27B02EF822CBC66E00B7CC17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				031A677A22004085000C170B /* ContentTableViewCell.swift */,
+				031A677C22004961000C170B /* ContentCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27B02EF922CBC67500B7CC17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		5343838C02A3021BB40B5B3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,8 +334,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AB0AA922CA7F3F004F216B /* default_theme.plist in Resources */,
 				2742891921F22C6A002F9BDD /* LaunchScreen.storyboard in Resources */,
 				2742891621F22C6A002F9BDD /* Assets.xcassets in Resources */,
+				27AB0AAB22CA7F51004F216B /* night_theme.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,10 +370,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Dongqiu/Pods-Dongqiu-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftTheme/SwiftTheme.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTheme.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

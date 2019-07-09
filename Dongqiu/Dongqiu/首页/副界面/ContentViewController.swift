@@ -86,7 +86,7 @@ extension ContentViewController:UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: ContentViewController.cellID,for:indexPath) as! ContentTableViewCell
-        cell._title?.text = ContentViewController.Message[indexPath.row];
+        cell._lefttitle?.text = ContentViewController.Message[indexPath.row];
         return cell
     }
 }
@@ -102,7 +102,7 @@ extension ContentViewController:UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ContentViewController.collectID, for: indexPath) as! ContentCollectionViewCell
-        cell.title.text = ContentViewController.CollectMessage[indexPath.row]
+        cell.LeftTitle.text = ContentViewController.CollectMessage[indexPath.row]
         return cell
         
     }
