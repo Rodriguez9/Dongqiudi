@@ -8,14 +8,16 @@
 
 import UIKit
 import Masonry
+import Kingfisher
+
 class ContentCollectionViewCell: UICollectionViewCell {
     lazy var igv : UIImageView = {
         let igv = UIImageView()
-        igv.image = UIImage.init(named: "1")
+        //igv.image = UIImage.init(named: "1")
         return igv
     }()
     
-    lazy var LeftTitle : UILabel = {
+    lazy var BottomTitle : UILabel = {
         let title = UILabel()
         return title
     }()
@@ -23,7 +25,7 @@ class ContentCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super .init(frame: frame)
         self.addSubview(igv)
-        self.addSubview(LeftTitle)
+        self.addSubview(BottomTitle)
         setUI()
     }
     
@@ -33,14 +35,22 @@ class ContentCollectionViewCell: UICollectionViewCell {
     
     func setUI(){
         igv.mas_makeConstraints { (make:MASConstraintMaker!) in
-            make.left.equalTo()(self.contentView)?.offset()(20)
+            make.leading.equalTo()(self.contentView)?.offset()(20)
             make.top.equalTo()(self.contentView)?.offset()(20)
            make.size.equalTo()(CGSize(width: 60, height: 60))
         }
-        LeftTitle.mas_makeConstraints { (make:MASConstraintMaker!) in
+        BottomTitle.mas_makeConstraints { (make:MASConstraintMaker!) in
             make.top.equalTo()(self.igv.mas_bottom)?.offset()(3)
             make.centerX.equalTo()(self.igv)
         }
     }
+    
+    var MyConcern : MyConcern?{
+        didSet{
+            igv.kf.setImage(with: URL(string: (MyConcern?.icon)!))
+            BottomTitle.text = MyConcern?.name
+        }
+    }
+    
     
 }

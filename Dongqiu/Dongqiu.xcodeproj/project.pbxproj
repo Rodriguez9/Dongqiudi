@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0312A11822D5F85500C57A71 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312A11722D5F85500C57A71 /* NetworkTool.swift */; };
+		0312A12122D5FAE600C57A71 /* MyCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312A12022D5FAE600C57A71 /* MyCellModel.swift */; };
 		031A677622003857000C170B /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A677522003857000C170B /* ContentViewController.swift */; };
 		031A677B22004085000C170B /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A677A22004085000C170B /* ContentTableViewCell.swift */; };
 		031A677D22004961000C170B /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A677C22004961000C170B /* ContentCollectionViewCell.swift */; };
 		031A678022005EEF000C170B /* SLiderMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A677F22005EEF000C170B /* SLiderMenuViewController.swift */; };
+		0323D4EF22DF260A00F558F1 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323D4EE22DF260A00F558F1 /* UITableView+Extension.swift */; };
+		0323D4F122DF266300F558F1 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323D4F022DF266300F558F1 /* UIView+Extension.swift */; };
 		0333FDEE2216C4B10072526B /* Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FDED2216C4B10072526B /* Default.swift */; };
 		03385214221A490D00214AB2 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03385213221A490C00214AB2 /* Center.swift */; };
 		0338521A221A501F00214AB2 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03385219221A501F00214AB2 /* MyTabBar.swift */; };
+		039734ED22EC48E0001FAA08 /* CollectViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039734EC22EC48E0001FAA08 /* CollectViewTableViewCell.swift */; };
 		2717BB1921FE1B38008EE07B /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717BB1821FE1B38008EE07B /* Main.swift */; };
 		2717BB1B21FE1C81008EE07B /* scView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717BB1A21FE1C81008EE07B /* scView.swift */; };
 		2717BB1D21FE1C8A008EE07B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717BB1C21FE1C8A008EE07B /* TableViewCell.swift */; };
@@ -32,13 +37,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0312A11722D5F85500C57A71 /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		0312A12022D5FAE600C57A71 /* MyCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellModel.swift; sourceTree = "<group>"; };
 		031A677522003857000C170B /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		031A677A22004085000C170B /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
 		031A677C22004961000C170B /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
 		031A677F22005EEF000C170B /* SLiderMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLiderMenuViewController.swift; sourceTree = "<group>"; };
+		0323D4EE22DF260A00F558F1 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		0323D4F022DF266300F558F1 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		0333FDED2216C4B10072526B /* Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Default.swift; sourceTree = "<group>"; };
 		03385213221A490C00214AB2 /* Center.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
 		03385219221A501F00214AB2 /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
+		039734EC22EC48E0001FAA08 /* CollectViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectViewTableViewCell.swift; sourceTree = "<group>"; };
 		2717BB1821FE1B38008EE07B /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		2717BB1A21FE1C81008EE07B /* scView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scView.swift; sourceTree = "<group>"; };
 		2717BB1C21FE1C8A008EE07B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -72,6 +82,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0312A11622D5F83C00C57A71 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0312A11722D5F85500C57A71 /* NetworkTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0312A11F22D5FAD800C57A71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0312A12022D5FAE600C57A71 /* MyCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0312A12222D604C700C57A71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		031A677422003810000C170B /* 主界面 */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,10 +118,9 @@
 		031A677722003860000C170B /* 副界面 */ = {
 			isa = PBXGroup;
 			children = (
+				0312A11F22D5FAD800C57A71 /* Model */,
 				27B02EF922CBC67500B7CC17 /* Controller */,
 				27B02EF822CBC66E00B7CC17 /* View */,
-				27B02EF722CBC66800B7CC17 /* Model */,
-				031A677522003857000C170B /* ContentViewController.swift */,
 			);
 			path = "副界面";
 			sourceTree = "<group>";
@@ -101,6 +133,15 @@
 			path = "中间界面";
 			sourceTree = "<group>";
 		};
+		0323D4ED22DF25E300F558F1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0323D4EE22DF260A00F558F1 /* UITableView+Extension.swift */,
+				0323D4F022DF266300F558F1 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		03385215221A4E7B00214AB2 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,13 +151,6 @@
 				2742891A21F22C6A002F9BDD /* Info.plist */,
 			);
 			path = Other;
-			sourceTree = "<group>";
-		};
-		03385216221A4EA500214AB2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		03385217221A4EB000214AB2 /* View */ = {
@@ -174,9 +208,11 @@
 		2742892221F23034002F9BDD /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0323D4ED22DF25E300F558F1 /* Extension */,
+				0312A12222D604C700C57A71 /* Model */,
+				0312A11622D5F83C00C57A71 /* Tool */,
 				03385218221A4EB500214AB2 /* Controller */,
 				03385217221A4EB000214AB2 /* View */,
-				03385216221A4EA500214AB2 /* Model */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -232,18 +268,12 @@
 			path = Theme;
 			sourceTree = "<group>";
 		};
-		27B02EF722CBC66800B7CC17 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		27B02EF822CBC66E00B7CC17 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				031A677A22004085000C170B /* ContentTableViewCell.swift */,
 				031A677C22004961000C170B /* ContentCollectionViewCell.swift */,
+				039734EC22EC48E0001FAA08 /* CollectViewTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +281,7 @@
 		27B02EF922CBC67500B7CC17 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				031A677522003857000C170B /* ContentViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,7 +315,6 @@
 				2742890821F22C6A002F9BDD /* Frameworks */,
 				2742890921F22C6A002F9BDD /* Resources */,
 				7C3C611250E489EA1FC4B846 /* [CP] Embed Pods Frameworks */,
-				7F21C275AB00A624222E1E75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -369,32 +399,25 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Dongqiu/Pods-Dongqiu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftTheme/SwiftTheme.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTheme.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dongqiu/Pods-Dongqiu-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F21C275AB00A624222E1E75 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dongqiu/Pods-Dongqiu-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -407,15 +430,20 @@
 				031A678022005EEF000C170B /* SLiderMenuViewController.swift in Sources */,
 				2717BB1921FE1B38008EE07B /* Main.swift in Sources */,
 				2742892121F22D68002F9BDD /* TabBarViewController.swift in Sources */,
+				039734ED22EC48E0001FAA08 /* CollectViewTableViewCell.swift in Sources */,
 				03385214221A490D00214AB2 /* Center.swift in Sources */,
 				031A677622003857000C170B /* ContentViewController.swift in Sources */,
 				2742892421F23053002F9BDD /* NavViewController.swift in Sources */,
 				2742893021F2321D002F9BDD /* DataViewController.swift in Sources */,
+				0323D4EF22DF260A00F558F1 /* UITableView+Extension.swift in Sources */,
 				2742893521F239E3002F9BDD /* BaseViewController.swift in Sources */,
+				0312A12122D5FAE600C57A71 /* MyCellModel.swift in Sources */,
 				2742890F21F22C6A002F9BDD /* AppDelegate.swift in Sources */,
 				2742892A21F231E4002F9BDD /* Match.swift in Sources */,
+				0312A11822D5F85500C57A71 /* NetworkTool.swift in Sources */,
 				0333FDEE2216C4B10072526B /* Default.swift in Sources */,
 				0338521A221A501F00214AB2 /* MyTabBar.swift in Sources */,
+				0323D4F122DF266300F558F1 /* UIView+Extension.swift in Sources */,
 				2717BB1D21FE1C8A008EE07B /* TableViewCell.swift in Sources */,
 				031A677B22004085000C170B /* ContentTableViewCell.swift in Sources */,
 				2742892D21F231FF002F9BDD /* Quanzi.swift in Sources */,

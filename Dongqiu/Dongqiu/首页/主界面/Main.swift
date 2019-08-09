@@ -45,7 +45,7 @@ class Main: UIViewController {
         scroll.creatMyScrollView(type: .ShowTitleType, data: Main.iamgeNames, height: 60)
         imgscroll.creatMyScrollView(type: .ShowImageType, data: Main.imageNames, height: 240)
 
-        imgscroll.frame =   CGRect(x: 0, y: 60, width: WIDTH, height: 240)
+        imgscroll.frame =   CGRect(x: 0, y: 60, width: screenWidth, height: 240)
         
         view.addSubview(_scroll!)
         view.addSubview(_imgscroll!)
@@ -78,8 +78,8 @@ class Main: UIViewController {
     }
     
     @objc func timerManager(){
-        _imgscroll?.setContentOffset(CGPoint(x: (_imgscroll?.contentOffset.x)! + WIDTH, y: 0), animated: true)
-        if _imgscroll?.contentOffset.x == CGFloat(WIDTH) * CGFloat(Main.imageNames.count-1){
+        _imgscroll?.setContentOffset(CGPoint(x: (_imgscroll?.contentOffset.x)! + screenWidth, y: 0), animated: true)
+        if _imgscroll?.contentOffset.x == CGFloat(screenWidth) * CGFloat(Main.imageNames.count-1){
             _imgscroll?.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
         }
     }

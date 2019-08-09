@@ -6,6 +6,8 @@ target 'Dongqiu' do
   use_frameworks!
     pod 'Masonry'
     pod 'SwiftTheme'
-  # Pods for Dongqiu
-
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'Kingfisher'
+    pod 'HandyJSON', '5.0.0-beta'
 end

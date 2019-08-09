@@ -29,7 +29,7 @@ class scView: UIScrollView {
         }
         if type == .ShowImageType {
             for i in 0...(data.count-1){
-                let  imageView = UIImageView(frame: CGRect(x: CGFloat(i) * WIDTH, y: 0, width: WIDTH, height: 240))
+                let  imageView = UIImageView(frame: CGRect(x: CGFloat(i) * screenWidth, y: 0, width: screenWidth, height: 240))
                 imageView.image = UIImage.init(named: data[i])
                 self.addSubview(imageView)
                 let page = UIPageControl()
@@ -38,7 +38,7 @@ class scView: UIScrollView {
                 imageView.addSubview(page)
                 self.page = page
             }
-            self.contentSize = CGSize(width: CGFloat(data.count)*WIDTH, height: height)
+            self.contentSize = CGSize(width: CGFloat(data.count) * screenWidth, height: height)
         }
         
         self.bounces = false

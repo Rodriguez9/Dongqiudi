@@ -8,7 +8,7 @@
 
 import UIKit
 import Masonry
-class ContentTableViewCell: UITableViewCell {
+class ContentTableViewCell: UITableViewCell,RegisterCellOrNib{
 
     var _rightImage : UIImageView?
     var _lefttitle : UILabel?
